@@ -1,7 +1,7 @@
 {
     "name": "intermentality.github.io",
     "version": "0.0.0",
-    "homepage": "https://intermentality.github.io/",
+    "homepage": "https://intermentality.github.io",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
