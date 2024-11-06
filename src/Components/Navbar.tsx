@@ -3,7 +3,7 @@ import { LinkNewWindow } from "./Link"
 
 export default function Navbar(){
     return <nav className="Nav">
-        <Link to="/">webweb</Link>
+        <Link to="/">Home</Link>
 
         <ul>
             <li><Link to="/proj">Projects</Link></li>
