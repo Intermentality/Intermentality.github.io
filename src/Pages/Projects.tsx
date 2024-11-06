@@ -5,9 +5,9 @@ import { Paragraph } from '../Components/Paragraph';
 export default function Projects(){
     return <div className="relative grid place-items-center">
         <article className="my-4 p-2 w-full max-w-sm md:max-w-2xl">
-            <h1 className="text-4xl">webweb /proj</h1>
+            <h1 className="text-4xl">Projects</h1>
             
-            <Paragraph>projects I made at school and stuff.</Paragraph>
+            <Paragraph>Projects I made at school.</Paragraph>
 
             <h2 className="text-2xl"> Project Links </h2>
             <ul className="list-disc">
