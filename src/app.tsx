@@ -10,19 +10,23 @@ import PGASGame from './Pages/ProjectsPage/PGASGame';
 
 export const App: React.FC = () => {
     return <>
-      {<Background />}
+        {<Background />}
 
         {/* Top bar stuff */}
-        {<Navbar />}
+        <div className='z-1 relative'>
+          {<Navbar />}
+        </div>
 
         {/* Main page stuff */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/proj" element={<Projects />} />
+        <div className='z-0 pt-2'>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/proj" element={<Projects />} />
 
-          {/* Side Pages */}
-          <Route path="/proj-first-glsl" element={<FirstGLSL />} />
-          <Route path="/proj-pgas-game" element={<PGASGame />} />
-        </Routes>
+            {/* Side Pages */}
+            <Route path="/proj-first-glsl" element={<FirstGLSL />} />
+            <Route path="/proj-pgas-game" element={<PGASGame />} />
+          </Routes>
+        </div>
     </>;
 }
