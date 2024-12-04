@@ -1,5 +1,10 @@
 import { Paragraph } from "../../Components/Paragraph";
 
+import LevelsSS from "../../Images/PGASGame/LevelsSS.png";
+import MainMenuSS from "../../Images/PGASGame/MainMenuSS.png";
+import PowerupSS from "../../Images/PGASGame/PowerupSS.png";
+import WarningSS from "../../Images/PGASGame/WarningSS.png";
+
 export default function PGASGame(){
     return <div className="relative grid place-items-center">
         <article className="my-4 p-2 w-full max-w-sm md:max-w-2xl">
@@ -30,7 +35,12 @@ export default function PGASGame(){
 
             <h2 className="text-xl">Images</h2>
             <Paragraph>
-                I'll add it in once I know how. Rip. 🙏
+                <div className="grid gap-1 grid-cols-1 md:grid-cols-2">
+                    <img src={LevelsSS}/>
+                    <img src={MainMenuSS}/>
+                    <img src={PowerupSS}/>
+                    <img src={WarningSS}/>
+                </div>
             </Paragraph>
         </article>
     </div>
