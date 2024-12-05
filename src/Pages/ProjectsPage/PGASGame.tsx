@@ -1,9 +1,9 @@
 import { Paragraph } from "../../Components/Paragraph";
 
-import LevelsSS from "../../Images/PGASGame/LevelsSS.png";
-import MainMenuSS from "../../Images/PGASGame/MainMenuSS.png";
-import PowerupSS from "../../Images/PGASGame/PowerupSS.png";
-import WarningSS from "../../Images/PGASGame/WarningSS.png";
+import LevelsSS from "../../assets/PGASGame/LevelsSS.png";
+import MainMenuSS from "../../assets/PGASGame/MainMenuSS.png";
+import PowerupSS from "../../assets/PGASGame/PowerupSS.png";
+import WarningSS from "../../assets/PGASGame/WarningSS.png";
 
 export default function PGASGame(){
     return <div className="relative grid place-items-center">
@@ -36,10 +36,10 @@ export default function PGASGame(){
             <h2 className="text-xl">Images</h2>
             <Paragraph>
                 <div className="grid gap-1 grid-cols-1 md:grid-cols-2">
-                    <img src={LevelsSS}/>
-                    <img src={MainMenuSS}/>
-                    <img src={PowerupSS}/>
-                    <img src={WarningSS}/>
+                    <img src={LevelsSS} alt="LevelSS.png"/>
+                    <img src={MainMenuSS} alt="MainMenuSS.png"/>
+                    <img src={PowerupSS} alt="PowerupSS.png"/>
+                    <img src={WarningSS} alt="WarningSS.png"/>
                 </div>
             </Paragraph>
         </article>
