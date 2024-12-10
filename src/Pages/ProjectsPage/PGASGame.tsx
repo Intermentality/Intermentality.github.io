@@ -1,9 +1,9 @@
 import { Paragraph } from "../../Components/Paragraph";
 
-import LevelsSS from "@src/PGAS24_LevelsSS.png";
-import MainMenuSS from "@src/PGAS24_MainMenuSS.png";
-import PowerupSS from "@src/PGAS24_PowerupSS.png";
-import WarningSS from "@src/PGAS24_WarningSS.png";
+import LevelsSS from "/src/PGAS24_LevelsSS.png";
+import MainMenuSS from "/src/PGAS24_MainMenuSS.png";
+import PowerupSS from "/src/PGAS24_PowerupSS.png";
+import WarningSS from "/src/PGAS24_WarningSS.png";
 
 export default function PGASGame(){
     return <div className="relative grid place-items-center">
