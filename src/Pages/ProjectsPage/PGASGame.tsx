@@ -6,6 +6,11 @@ import PowerupSS from "../../assets/PGAS24_PowerupSS.png";
 import WarningSS from "../../assets/PGAS24_WarningSS.png";
 
 export default function PGASGame(){
+    function getImageUrl(file: string) {
+        // note that this does not include files in subdirectories
+        return new URL(`${file}`, import.meta.url).href
+    }
+
     return <div className="relative grid place-items-center">
         <article className="my-4 p-2 w-full max-w-sm md:max-w-2xl">
             <h1 className="text-4xl">PGAS-Game</h1>
@@ -35,10 +40,10 @@ export default function PGASGame(){
 
             <h2 className="text-xl">Images</h2>
             <div className="grid gap-1 grid-cols-1 md:grid-cols-2">
-                    <img src={`${LevelsSS}`} alt="LevelSS.png"/>
-                    <img src={`${MainMenuSS}`} alt="MainMenuSS.png"/>
-                    <img src={`${PowerupSS}`} alt="PowerupSS.png"/>
-                    <img src={`${WarningSS}`} alt="WarningSS.png"/>
+                    <img src={getImageUrl(LevelsSS)} alt="LevelSS.png"/>
+                    <img src={getImageUrl(MainMenuSS)} alt="MainMenuSS.png"/>
+                    <img src={getImageUrl(PowerupSS)} alt="PowerupSS.png"/>
+                    <img src={getImageUrl(WarningSS)} alt="WarningSS.png"/>
                 </div>
         </article>
     </div>
