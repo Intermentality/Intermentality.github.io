@@ -34,14 +34,12 @@ export default function PGASGame(){
             </Paragraph>
 
             <h2 className="text-xl">Images</h2>
-            <Paragraph>
-                <div className="grid gap-1 grid-cols-1 md:grid-cols-2">
-                    <img src={LevelsSS} alt="LevelSS.png"/>
-                    <img src={MainMenuSS} alt="MainMenuSS.png"/>
-                    <img src={PowerupSS} alt="PowerupSS.png"/>
-                    <img src={WarningSS} alt="WarningSS.png"/>
+            <div className="grid gap-1 grid-cols-1 md:grid-cols-2">
+                    <img src={`${LevelsSS}`} alt="LevelSS.png"/>
+                    <img src={`${MainMenuSS}`} alt="MainMenuSS.png"/>
+                    <img src={`${PowerupSS}`} alt="PowerupSS.png"/>
+                    <img src={`${WarningSS}`} alt="WarningSS.png"/>
                 </div>
-            </Paragraph>
         </article>
     </div>
 }
