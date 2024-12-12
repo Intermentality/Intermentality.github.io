@@ -7,6 +7,8 @@ import Projects from './Pages/Projects'
 
 import FirstGLSL from './Pages/ProjectsPage/FirstGLSL';
 import PGASGame from './Pages/ProjectsPage/PGASGame';
+import EINTY_IWeb from './Pages/ProjectsPage/EINTY-IWeb';
+import PortfolioLog from './Pages/ProjectsPage/PortfolioLog';
 
 export const App: React.FC = () => {
     return <>
@@ -26,6 +28,8 @@ export const App: React.FC = () => {
             {/* Side Pages */}
             <Route path="/proj-first-glsl" element={<FirstGLSL />} />
             <Route path="/proj-pgas-game" element={<PGASGame />} />
+            <Route path="/proj-einty-iweb" element={<EINTY_IWeb/>} />
+            <Route path="/proj-portfolio" element={<PortfolioLog/>} />
           </Routes>
         </div>
     </>;

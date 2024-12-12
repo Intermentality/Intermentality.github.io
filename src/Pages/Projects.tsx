@@ -14,6 +14,12 @@ export default function Projects(){
                 <li><Link to="/proj-first-glsl" className="text-sky-300">First GLSL</Link></li>
                 <li><Link to="/proj-pgas-game" className="text-sky-300">PGAS Game</Link></li>
             </ul>
+            
+            <h2 className="text-2xl">Websites</h2>
+            <ul className="list-disc">
+                <li><Link to="/proj-einty-iweb" className='text-sky-300'>EINTY-IWeb</Link></li>
+                <li><Link to="/proj-portfolio" className='text-sky-300'>Portfolio Log</Link></li>
+            </ul>
         </article>
     </div>
 }
