@@ -1,10 +1,5 @@
 import { Paragraph } from "../../Components/Paragraph";
 
-import LevelsSS from "@assets/PGAS24_LevelsSS.png";
-import MainMenuSS from "@assets/PGAS24_MainMenuSS.png";
-import PowerupSS from "@assets/PGAS24_PowerupSS.png";
-import WarningSS from "@assets/PGAS24_WarningSS.png";
-
 export default function PGASGame(){
     function getImageUrl(file: string) {
         return new URL(`${file}`, import.meta.url).href
@@ -38,12 +33,9 @@ export default function PGASGame(){
             </Paragraph>
 
             <h2 className="text-xl">Images</h2>
+            <p>Not yet, I need to update to React18.</p>
             <div className="grid gap-1 grid-cols-1 md:grid-cols-2">
-                    <img src={getImageUrl(LevelsSS)} alt="LevelSS.png"/>
-                    <img src={getImageUrl(MainMenuSS)} alt="MainMenuSS.png"/>
-                    <img src={getImageUrl(PowerupSS)} alt="PowerupSS.png"/>
-                    <img src={getImageUrl(WarningSS)} alt="WarningSS.png"/>
-                </div>
+            </div>
         </article>
     </div>
 }
