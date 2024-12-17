@@ -1,5 +1,5 @@
 import Navbar from './Components/Navbar'
-import { Background } from './Components/Background';
+import Background from './Components/Background';
 import { Route, Routes } from 'react-router-dom';
 
 import Home from './Pages/Home'
@@ -9,6 +9,7 @@ import FirstGLSL from './Pages/ProjectsPage/FirstGLSL';
 import PGASGame from './Pages/ProjectsPage/PGASGame';
 import EINTY_IWeb from './Pages/ProjectsPage/EINTY-IWeb';
 import PortfolioLog from './Pages/ProjectsPage/PortfolioLog';
+import NovaInOrion_IWeb from './Pages/ProjectsPage/NovaInOrion-IWeb';
 
 export const App: React.FC = () => {
     return <>
@@ -30,6 +31,7 @@ export const App: React.FC = () => {
             <Route path="/proj-pgas-game" element={<PGASGame />} />
             <Route path="/proj-einty-iweb" element={<EINTY_IWeb/>} />
             <Route path="/proj-portfolio" element={<PortfolioLog/>} />
+            <Route path="/proj-novainorion" element={<NovaInOrion_IWeb/>} />
           </Routes>
         </div>
     </>;

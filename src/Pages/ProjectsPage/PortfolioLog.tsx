@@ -5,6 +5,12 @@ export default function PortfolioLog(){
         <article className="my-4 p-2 w-full max-w-sm md:max-w-2xl">
             <h1 className="text-4xl">Portfolio Log</h1>
 
+            <h2>12/17/2024</h2>
+            <h3 className="font-semibold text-xl italic">Update</h3>
+            <Paragraph>
+                Using React19 now for this site with images being supported.
+            </Paragraph>
+
             <h2>12/12/2024</h2>
             <h3 className="font-semibold text-xl italic">Overview</h3>
             <Paragraph>

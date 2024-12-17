@@ -20,6 +20,7 @@ export default function Home(){
             <h2 className="text-2xl">Websites</h2>
             <ul className="list-disc">
                 <li><Link to="/proj-einty-iweb" className='text-sky-300'>EINTY-IWeb</Link></li>
+                <li><Link to="/proj-novainorion" className='text-sky-300'>NIO-IWeb</Link></li>
                 <li><Link to="/proj-portfolio" className='text-sky-300'>Portfolio Log</Link></li>
             </ul>
 

@@ -1,10 +1,11 @@
 import { Paragraph } from "../../Components/Paragraph";
 
-export default function PGASGame(){
-    function getImageUrl(file: string) {
-        return new URL(`${file}`, import.meta.url).href
-    }
+import LevelSS from "@/assets/PGAS24/PGAS24_LevelsSS.png";
+import MainMenuSS from "@/assets/PGAS24/PGAS24_MainMenuSS.png";
+import PowerupSS from "@/assets/PGAS24/PGAS24_PowerupSS.png";
+import WarningSS from "@/assets/PGAS24/PGAS24_WarningSS.png";
 
+export default function PGASGame(){
     return <div className="relative grid place-items-center">
         <article className="my-4 p-2 w-full max-w-sm md:max-w-2xl">
             <h1 className="text-4xl">PGAS-Game</h1>
@@ -33,8 +34,11 @@ export default function PGASGame(){
             </Paragraph>
 
             <h2 className="text-xl">Images</h2>
-            <p>Not yet, I need to update to React18.</p>
             <div className="grid gap-1 grid-cols-1 md:grid-cols-2">
+                <img src={LevelSS} />
+                <img src={MainMenuSS} />
+                <img src={PowerupSS} />
+                <img src={WarningSS} />
             </div>
         </article>
     </div>

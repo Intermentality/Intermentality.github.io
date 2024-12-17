@@ -1,4 +1,5 @@
 export const LinkNewWindow: React.FC<{
+    children: React.ReactNode;
     href: string;
     noColorChange?: boolean;
   }> = ( { children, href, noColorChange } ) => (
