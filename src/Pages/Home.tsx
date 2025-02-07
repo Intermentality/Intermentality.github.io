@@ -14,7 +14,8 @@ export default function Home(){
             <h2 className="text-2xl">Projects</h2>
             <ul className="list-disc">
                 <li><Link to="/proj-first-glsl" className="text-sky-300">First GLSL</Link></li>
-                <li><Link to="/proj-pgas-game" className="text-sky-300">PGAS Game</Link></li>
+                <li><Link to="/proj-pgas24-game" className="text-sky-300">PGAS24 Game</Link></li>
+                <li><Link to="/proj-pgas25-game" className="text-sky-300">PGAS25 Game</Link></li>
             </ul>
             
             <h2 className="text-2xl">Websites</h2>

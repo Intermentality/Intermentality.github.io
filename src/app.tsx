@@ -6,7 +6,8 @@ import Home from './Pages/Home'
 import Projects from './Pages/Projects'
 
 import FirstGLSL from './Pages/ProjectsPage/FirstGLSL';
-import PGASGame from './Pages/ProjectsPage/PGASGame';
+import PGAS24Game from './Pages/ProjectsPage/PGAS24Game';
+import PGAS25Game from './Pages/ProjectsPage/PGAS25Game';
 import EINTY_IWeb from './Pages/ProjectsPage/EINTY-IWeb';
 import PortfolioLog from './Pages/ProjectsPage/PortfolioLog';
 import NovaInOrion_IWeb from './Pages/ProjectsPage/NovaInOrion-IWeb';
@@ -28,7 +29,8 @@ export const App: React.FC = () => {
 
             {/* Side Pages */}
             <Route path="/proj-first-glsl" element={<FirstGLSL />} />
-            <Route path="/proj-pgas-game" element={<PGASGame />} />
+            <Route path="/proj-pgas24-game" element={<PGAS24Game />} />
+            <Route path="/proj-pgas25-game" element={<PGAS25Game />} />
             <Route path="/proj-einty-iweb" element={<EINTY_IWeb/>} />
             <Route path="/proj-portfolio" element={<PortfolioLog/>} />
             <Route path="/proj-novainorion" element={<NovaInOrion_IWeb/>} />
