@@ -25,6 +25,9 @@ nav {
     @apply flex items-center p-1
   }
 
+  li{
+    @apply duration-100 flex
+  }
   li:hover{
     @apply bg-gray-500
   }

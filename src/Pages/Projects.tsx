@@ -10,15 +10,12 @@ export default function Projects(){
 
             <h2 className="text-2xl"> Project Links </h2>
             <ul className="list-disc">
-                <li><Link to="/proj-first-glsl" className="text-sky-300">First GLSL</Link></li>
                 <li><Link to="/proj-pgas24-game" className="text-sky-300">PGAS24 Game</Link></li>
                 <li><Link to="/proj-pgas25-game" className="text-sky-300">PGAS25 Game</Link></li>
             </ul>
             
             <h2 className="text-2xl">Websites</h2>
             <ul className="list-disc">
-                <li><Link to="/proj-einty-iweb" className='text-sky-300'>EINTY-IWeb</Link></li>
-                <li><Link to="/proj-novainorion" className='text-sky-300'>NIO-IWeb</Link></li>
                 <li><Link to="/proj-portfolio" className='text-sky-300'>Portfolio Log</Link></li>
             </ul>
         </article>
