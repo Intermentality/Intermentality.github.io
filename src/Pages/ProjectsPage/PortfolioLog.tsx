@@ -5,6 +5,15 @@ export default function PortfolioLog(){
         <article className="my-4 p-2 w-full max-w-sm md:max-w-2xl">
             <h1 className="text-4xl">Portfolio Log</h1>
 
+            <h2>2025/03/13</h2>
+            <h3 className="font-semibold text-xl italic">Update</h3>
+            <Paragraph>
+                PGAS25_Fail log added.
+            </Paragraph>
+            <Paragraph>
+                Planning to update the site soon as well for MDX support.
+            </Paragraph>
+
             <h2>2025/02/06</h2>
             <h3 className="font-semibold text-xl italic">Update</h3>
             <Paragraph>

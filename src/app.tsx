@@ -8,6 +8,7 @@ import Projects from './Pages/Projects'
 import PGAS24Game from './Pages/ProjectsPage/PGAS24Game';
 import PGAS25Game from './Pages/ProjectsPage/PGAS25Game';
 import PortfolioLog from './Pages/ProjectsPage/PortfolioLog';
+import PGAS25Fail from './Pages/ProjectsPage/PGAS25Fail';
 
 export const App: React.FC = () => {
     return <>
@@ -27,6 +28,7 @@ export const App: React.FC = () => {
             {/* Side Pages */}
             <Route path="/proj-pgas24-game" element={<PGAS24Game />} />
             <Route path="/proj-pgas25-game" element={<PGAS25Game />} />
+            <Route path="/proj-pgas25-fail" element={<PGAS25Fail />} />
             <Route path="/proj-portfolio" element={<PortfolioLog/>} />
           </Routes>
         </div>

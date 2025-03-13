@@ -12,6 +12,7 @@ export default function Projects(){
             <ul className="list-disc">
                 <li><Link to="/proj-pgas24-game" className="text-sky-300">PGAS24 Game</Link></li>
                 <li><Link to="/proj-pgas25-game" className="text-sky-300">PGAS25 Game</Link></li>
+                <li><Link to="/proj-pgas25-fail" className="text-sky-300">PGAS25 Fail</Link></li>
             </ul>
             
             <h2 className="text-2xl">Websites</h2>
