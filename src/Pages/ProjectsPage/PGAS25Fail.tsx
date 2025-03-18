@@ -1,4 +1,5 @@
 import { Paragraph } from "../../Components/Paragraph";
+import FailBoard from "@/assets/PGAS25/FailBoard.png";
 
 export default function PGAS25Fail(){
     return <div className="relative grid place-items-center">
@@ -91,6 +92,9 @@ export default function PGAS25Fail(){
                     Rspress (to test the project.)
                 </a>
             </li>
+
+            <h2 className="text-xl">Scrum board:</h2>
+            <img src={FailBoard} />
         </article>
     </div>
 }
